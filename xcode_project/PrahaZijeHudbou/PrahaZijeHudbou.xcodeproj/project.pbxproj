@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		5F2514532109345C008C5A98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F2514522109345C008C5A98 /* main.cpp */; };
+		5F25146321093520008C5A98 /* hello_world_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F25146121093520008C5A98 /* hello_world_impl.cpp */; };
+		5F25149121094A5B008C5A98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F25149021094A5B008C5A98 /* AppDelegate.m */; };
+		5F25149421094A5B008C5A98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F25149321094A5B008C5A98 /* ViewController.m */; };
+		5F25149721094A5B008C5A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F25149521094A5B008C5A98 /* Main.storyboard */; };
+		5F25149921094A5D008C5A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F25149821094A5D008C5A98 /* Assets.xcassets */; };
+		5F25149C21094A5D008C5A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F25149A21094A5D008C5A98 /* LaunchScreen.storyboard */; };
+		5F25149F21094A5D008C5A98 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F25149E21094A5D008C5A98 /* main.mm */; };
+		5F2514A321094A8B008C5A98 /* hello_world_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F25146121093520008C5A98 /* hello_world_impl.cpp */; };
+		5F2514A821094AF8008C5A98 /* HWHelloWorld+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F2514A621094AF8008C5A98 /* HWHelloWorld+Private.mm */; };
+		5F2514B021094B14008C5A98 /* DJIProxyCaches.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F2514AA21094B14008C5A98 /* DJIProxyCaches.mm */; };
+		5F2514B121094B14008C5A98 /* DJIError.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F2514AB21094B14008C5A98 /* DJIError.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +36,39 @@
 /* Begin PBXFileReference section */
 		5F25144F2109345C008C5A98 /* PrahaZijeHudbou */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PrahaZijeHudbou; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F2514522109345C008C5A98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5F251460210934ED008C5A98 /* hello_world.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = hello_world.hpp; path = "../../../generated-src/cpp/hello_world.hpp"; sourceTree = "<group>"; };
+		5F25146121093520008C5A98 /* hello_world_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hello_world_impl.cpp; path = ../../../src/cpp/hello_world_impl.cpp; sourceTree = "<group>"; };
+		5F25146221093520008C5A98 /* hello_world_impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = hello_world_impl.hpp; path = ../../../src/cpp/hello_world_impl.hpp; sourceTree = "<group>"; };
+		5F25148D21094A5B008C5A98 /* Praha Zije Hudbou iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Praha Zije Hudbou iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F25148F21094A5B008C5A98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F25149021094A5B008C5A98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F25149221094A5B008C5A98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F25149321094A5B008C5A98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F25149621094A5B008C5A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F25149821094A5D008C5A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F25149B21094A5D008C5A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F25149D21094A5D008C5A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F25149E21094A5D008C5A98 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		5F2514A521094AF8008C5A98 /* HWHelloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HWHelloWorld.h; path = "../../../../generated-src/objc/HWHelloWorld.h"; sourceTree = "<group>"; };
+		5F2514A621094AF8008C5A98 /* HWHelloWorld+Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "HWHelloWorld+Private.mm"; path = "../../../../generated-src/objc/HWHelloWorld+Private.mm"; sourceTree = "<group>"; };
+		5F2514A721094AF8008C5A98 /* HWHelloWorld+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HWHelloWorld+Private.h"; path = "../../../../generated-src/objc/HWHelloWorld+Private.h"; sourceTree = "<group>"; };
+		5F2514AA21094B14008C5A98 /* DJIProxyCaches.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DJIProxyCaches.mm; path = "../../../../deps/djinni/support-lib/objc/DJIProxyCaches.mm"; sourceTree = "<group>"; };
+		5F2514AB21094B14008C5A98 /* DJIError.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DJIError.mm; path = "../../../../deps/djinni/support-lib/objc/DJIError.mm"; sourceTree = "<group>"; };
+		5F2514AC21094B14008C5A98 /* DJIObjcWrapperCache+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DJIObjcWrapperCache+Private.h"; path = "../../../../deps/djinni/support-lib/objc/DJIObjcWrapperCache+Private.h"; sourceTree = "<group>"; };
+		5F2514AD21094B14008C5A98 /* DJIMarshal+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DJIMarshal+Private.h"; path = "../../../../deps/djinni/support-lib/objc/DJIMarshal+Private.h"; sourceTree = "<group>"; };
+		5F2514AE21094B14008C5A98 /* DJICppWrapperCache+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DJICppWrapperCache+Private.h"; path = "../../../../deps/djinni/support-lib/objc/DJICppWrapperCache+Private.h"; sourceTree = "<group>"; };
+		5F2514AF21094B14008C5A98 /* DJIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DJIError.h; path = "../../../../deps/djinni/support-lib/objc/DJIError.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5F25144C2109345C008C5A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F25148A21094A5B008C5A98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				5F2514512109345C008C5A98 /* PrahaZijeHudbou */,
+				5F25148E21094A5B008C5A98 /* Praha Zije Hudbou iOS */,
 				5F2514502109345C008C5A98 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				5F25144F2109345C008C5A98 /* PrahaZijeHudbou */,
+				5F25148D21094A5B008C5A98 /* Praha Zije Hudbou iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +100,60 @@
 			isa = PBXGroup;
 			children = (
 				5F2514522109345C008C5A98 /* main.cpp */,
+				5F251460210934ED008C5A98 /* hello_world.hpp */,
+				5F25146121093520008C5A98 /* hello_world_impl.cpp */,
+				5F25146221093520008C5A98 /* hello_world_impl.hpp */,
 			);
 			path = PrahaZijeHudbou;
+			sourceTree = "<group>";
+		};
+		5F25148E21094A5B008C5A98 /* Praha Zije Hudbou iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5F2514B221094B21008C5A98 /* Supporting Files */,
+				5F2514A921094B03008C5A98 /* Djinni */,
+				5F2514A421094AD8008C5A98 /* Bridge */,
+				5F25148F21094A5B008C5A98 /* AppDelegate.h */,
+				5F25149021094A5B008C5A98 /* AppDelegate.m */,
+				5F25149221094A5B008C5A98 /* ViewController.h */,
+				5F25149321094A5B008C5A98 /* ViewController.m */,
+				5F25149521094A5B008C5A98 /* Main.storyboard */,
+				5F25149821094A5D008C5A98 /* Assets.xcassets */,
+				5F25149A21094A5D008C5A98 /* LaunchScreen.storyboard */,
+				5F25149D21094A5D008C5A98 /* Info.plist */,
+			);
+			path = "Praha Zije Hudbou iOS";
+			sourceTree = "<group>";
+		};
+		5F2514A421094AD8008C5A98 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				5F2514A521094AF8008C5A98 /* HWHelloWorld.h */,
+				5F2514A721094AF8008C5A98 /* HWHelloWorld+Private.h */,
+				5F2514A621094AF8008C5A98 /* HWHelloWorld+Private.mm */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		5F2514A921094B03008C5A98 /* Djinni */ = {
+			isa = PBXGroup;
+			children = (
+				5F2514AE21094B14008C5A98 /* DJICppWrapperCache+Private.h */,
+				5F2514AF21094B14008C5A98 /* DJIError.h */,
+				5F2514AB21094B14008C5A98 /* DJIError.mm */,
+				5F2514AD21094B14008C5A98 /* DJIMarshal+Private.h */,
+				5F2514AC21094B14008C5A98 /* DJIObjcWrapperCache+Private.h */,
+				5F2514AA21094B14008C5A98 /* DJIProxyCaches.mm */,
+			);
+			path = Djinni;
+			sourceTree = "<group>";
+		};
+		5F2514B221094B21008C5A98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F25149E21094A5D008C5A98 /* main.mm */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,16 +176,37 @@
 			productReference = 5F25144F2109345C008C5A98 /* PrahaZijeHudbou */;
 			productType = "com.apple.product-type.tool";
 		};
+		5F25148C21094A5B008C5A98 /* Praha Zije Hudbou iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F2514A021094A5D008C5A98 /* Build configuration list for PBXNativeTarget "Praha Zije Hudbou iOS" */;
+			buildPhases = (
+				5F25148921094A5B008C5A98 /* Sources */,
+				5F25148A21094A5B008C5A98 /* Frameworks */,
+				5F25148B21094A5B008C5A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Praha Zije Hudbou iOS";
+			productName = "Praha Zije Hudbou iOS";
+			productReference = 5F25148D21094A5B008C5A98 /* Praha Zije Hudbou iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		5F2514472109345C008C5A98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = BlindChameleonStudio;
 				TargetAttributes = {
 					5F25144E2109345C008C5A98 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5F25148C21094A5B008C5A98 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
@@ -102,6 +217,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 5F2514462109345C008C5A98;
 			productRefGroup = 5F2514502109345C008C5A98 /* Products */;
@@ -109,9 +225,23 @@
 			projectRoot = "";
 			targets = (
 				5F25144E2109345C008C5A98 /* PrahaZijeHudbou */,
+				5F25148C21094A5B008C5A98 /* Praha Zije Hudbou iOS */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F25148B21094A5B008C5A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F25149C21094A5D008C5A98 /* LaunchScreen.storyboard in Resources */,
+				5F25149921094A5D008C5A98 /* Assets.xcassets in Resources */,
+				5F25149721094A5B008C5A98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5F25144B2109345C008C5A98 /* Sources */ = {
@@ -119,10 +249,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F2514532109345C008C5A98 /* main.cpp in Sources */,
+				5F25146321093520008C5A98 /* hello_world_impl.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F25148921094A5B008C5A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2514B121094B14008C5A98 /* DJIError.mm in Sources */,
+				5F25149421094A5B008C5A98 /* ViewController.m in Sources */,
+				5F2514A321094A8B008C5A98 /* hello_world_impl.cpp in Sources */,
+				5F2514A821094AF8008C5A98 /* HWHelloWorld+Private.mm in Sources */,
+				5F25149F21094A5D008C5A98 /* main.mm in Sources */,
+				5F25149121094A5B008C5A98 /* AppDelegate.m in Sources */,
+				5F2514B021094B14008C5A98 /* DJIProxyCaches.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F25149521094A5B008C5A98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F25149621094A5B008C5A98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F25149A21094A5D008C5A98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F25149B21094A5D008C5A98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5F2514542109345C008C5A98 /* Debug */ = {
@@ -252,6 +416,47 @@
 			};
 			name = Release;
 		};
+		5F2514A121094A5D008C5A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VTWF7ZVM78;
+				INFOPLIST_FILE = "Praha Zije Hudbou iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blindchameleonstudio.Praha-Zije-Hudbou-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F2514A221094A5D008C5A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VTWF7ZVM78;
+				INFOPLIST_FILE = "Praha Zije Hudbou iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blindchameleonstudio.Praha-Zije-Hudbou-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -269,6 +474,15 @@
 			buildConfigurations = (
 				5F2514572109345C008C5A98 /* Debug */,
 				5F2514582109345C008C5A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F2514A021094A5D008C5A98 /* Build configuration list for PBXNativeTarget "Praha Zije Hudbou iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2514A121094A5D008C5A98 /* Debug */,
+				5F2514A221094A5D008C5A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
