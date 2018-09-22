@@ -12,7 +12,7 @@ namespace="helloworld"
 objc_prefix="HW"
 
 # Java package name for generated src
-java_package="com.mycompany.helloworld"
+java_package="com.prahazijehudbou.blindchameleonstudio"
 
 
 ### Script
@@ -33,7 +33,7 @@ java_out="$base_dir/generated-src/java/$java_dir"
 rm -rf $cpp_out
 rm -rf $jni_out
 rm -rf $objc_out
-rm -rf $java_out 
+rm -rf $java_out
 
 # execute the djinni command
 deps/djinni/src/run \
@@ -49,4 +49,3 @@ deps/djinni/src/run \
    --objc-type-prefix $objc_prefix \
    --objcpp-out $objc_out \
    --idl $djinni_file
-
